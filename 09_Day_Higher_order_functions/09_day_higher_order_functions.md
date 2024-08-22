@@ -571,6 +571,12 @@ const products = [
 ```
 
 1. Explain the difference between **_forEach, map, filter, and reduce_**.
+
+- **_forEach_** loops over all the items in an array and applies a callback function with the item as argument.
+- **_map_** creates a new array, where each item is mapped to another value based on the callback function.
+- **_filter_** applies a callback function to each item and creates a new array containing the items for which the callback function returned true.
+- **_reduce_** applies a callback function to an accumulator successively, for each item.
+
 2. Define a callback function before you use it in forEach, map, filter or reduce.
 3. Use **_forEach_** to console.log each country in the countries array.
 4. Use **_forEach_** to console.log each name in the names array.
